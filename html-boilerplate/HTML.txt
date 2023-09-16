@@ -18,3 +18,19 @@ always name the homepage of your website index.html
 </html>
 
 shortcut for the boilerplate in vscode is ! 
+
+for paragraph <p>
+headings go from h1 to h6. They have priority, h1 being the highest
+<strong> makes a text bold meaning its important 
+<em> makes italic; places emphasis on the text
+comment shortcut for html: cntrl + /
+unordered list <ul> and list <li>
+ordered list <ol> and list <li>
+
+linking
+<a href=""> </a> 
+for opening the link in a new tab use target="_blank" after href
+rel="noopener norefferer"
+noopener prevents phishing attacks
+absolute link: links to other websites
+relative link: links to other pages within our own wewbsite
