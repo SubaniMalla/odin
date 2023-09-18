@@ -34,3 +34,5 @@ rel="noopener norefferer"
 noopener prevents phishing attacks
 absolute link: links to other websites
 relative link: links to other pages within our own wewbsite
+
+<img src="" alt = "">
