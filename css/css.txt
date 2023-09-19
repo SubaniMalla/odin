@@ -1,0 +1,6 @@
+universal selector: * {color: purple;}
+type selector div { color: white;}
+class selector: 
+in html: <div class="alert-text">pls agree.</div>
+css: .alert-text {color: red;}
+
