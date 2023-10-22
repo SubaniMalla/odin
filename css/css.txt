@@ -1,6 +1,56 @@
-universal selector: * {color: purple;}
-type selector div { color: white;}
-class selector: 
-in html: <div class="alert-text">pls agree.</div>
-css: .alert-text {color: red;}
+div.bold-text {font-weight: 700;}
+selector        property     value
+
+<div> is an empty container and one of the basic html elements
+
+----SELECTORS----
+universal selector: *
+*{color:purple;}
+will select elements of any type
+
+type selector
+div {color:purple;}
+all the <div> elements would be selected and styled purple
+
+class selector
+html <div class="subani">
+css: .subani {color:purple}
+will only select the class subani
+classes can be used on as many elements as we want
+multiple classes: can be added by using space class="student subani" where student is a class and subani is another class
+
+id selector
+html <div id="subani">
+css: #subani {color:purple;}
+elements can have only one id, cannot be repeated
+should be used sparingly
+
+grouping selectors
+if two classes share some same properties then to avoid repetition we can...
+.subani, .malla {color:red;}
+
+chaining selectors
+for the multiple class we could chain by .student.subani {}
+can also be done for id and class   .student#subani{}
+
+descendant selectors 
+<div class="A"> 
+ <div class = "b"> 
+ </div> 
+</div>
+then we can select it like this .A .b
+by using a single space between the selectors
+
+
+----PROPERTIES----
+color background-color
+font-family: "Times New Roman", sans-serif; it wil use tnr if its available otherwise sans serif which is a general one
+font-size, font-weight: this can be bold or a number between 1-1000, text-align
+
+if we wanna adjust the image size then use height: auto and width: as much as you want
+
+----ADDING CSS TO HTML-----
+<head><link rel="stylesheet" href="style.css" </head>
+
+
 
