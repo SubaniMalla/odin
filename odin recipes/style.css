@@ -1,0 +1,25 @@
+*{
+    background-color: blanchedalmond;
+}
+
+h1{
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    color:saddlebrown;
+}
+
+img{
+    height:auto;
+    width: 500px;
+}
+
+h2,h3{
+    color: peru;
+}
+
+.links{
+    color:black;
+}
+.links:hover{
+    color: brown;
+}
