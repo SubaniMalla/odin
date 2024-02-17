@@ -1,0 +1,7 @@
+This is just a test.
+git clone 
+git status 
+git add . //for adding all the updated files
+git commit -m "" //commit message
+git push //to update/send your contents to github 
+git pull origin //for updating the contents in the local branch
